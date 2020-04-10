@@ -27,15 +27,15 @@ public:
      ~Notebook();
     Notebook& operator ++ (int);
     Notebook& operator -- (int);
-    friend bool operator ==( Notebook& value1, Notebook& value2);
-    friend bool operator !=( Notebook& value1, Notebook& value2);
-    friend bool operator >( Notebook& value1, Notebook& value2);
-    friend bool operator <( Notebook& value1, Notebook& value2);
-    friend bool operator >=( Notebook& value1, Notebook& value2);
-    friend bool operator <=( Notebook& value1, Notebook& value2);
+    bool operator ==(const Notebook& value)const;
+    bool operator !=(const Notebook& value)const;
+    bool operator >(const Notebook& value)const;
+    bool operator <(const Notebook& value)const;
+    bool operator >=(const Notebook& value)const;
+    bool operator <=(const Notebook& value)const;
     friend ostream& operator << (ostream &a, const Notebook &notebook123);
     friend istream& operator >> (istream &b, Notebook &notebook123);
-    Notebook& operator = (const Notebook &notebook_1);
+    Notebook& operator = (const Notebook &value);
 };
 
 #endif // PRODUCT_H_INCLUDED
