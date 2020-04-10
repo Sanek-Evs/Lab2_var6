@@ -33,19 +33,19 @@ void Notebook::setCPU(int cpu_1)
     if(cpu_1>=0)
     cpu=cpu_1;
     }
-string Notebook::getModel()
+string Notebook::getModel() const
     {
     return (this->model);
     }
-int Notebook::getMemory()
+int Notebook::getMemory() const
     {
     return (this -> memory);
     }
-int Notebook::getCPU()
+int Notebook::getCPU() const
     {
     return (this -> cpu);
     }
-void Notebook::print()
+void Notebook::print() const
     {
     cout<<"Model: "<<model<<endl
     <<"Memory: "<<memory<<endl
@@ -120,16 +120,16 @@ Notebook& Notebook::operator = (const Notebook &value)
     return *this;
 }
 
-    ostream& operator << (ostream &a, const Notebook &notebook123)
+    ostream& operator << (ostream &a, const Notebook &notebook_1)
 {
-    a << "("<< notebook123.model << ", " << notebook123.memory << ", " << notebook123.cpu << ")\n\n";
+    a << "("<< notebook_1.model << ", " << notebook_1.memory << ", " << notebook_1.cpu << ")\n\n";
     return a;
 }
-istream& operator >> (istream &b, Notebook &notebook123)
+istream& operator >> (istream &b, Notebook &notebook_1)
 {
-    b >> notebook123.model;
-    b >> notebook123.memory;
-    b >> notebook123.cpu;
+    b >> notebook_1.model;
+    b >> notebook_1.memory;
+    b >> notebook_1.cpu;
     return b;
 }
 
