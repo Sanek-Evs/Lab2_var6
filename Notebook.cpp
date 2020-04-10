@@ -18,20 +18,20 @@ Notebook::Notebook()
     setCPU(cpu);
     }
 
-void Notebook::setModel(string stroka)
+void Notebook::setModel(string model_1)
     {
-    this -> model = stroka;
+    this -> model = model_1;
     }
 
-void Notebook::setMemory(int qwerty)
+void Notebook::setMemory(int memory_1)
     {
-    if(qwerty>=0)
-    memory=qwerty;
+    if(memory_1>=0)
+    memory=memory_1;
     }
-void Notebook::setCPU(int qwerty)
+void Notebook::setCPU(int cpu_1)
     {
-    if(qwerty>=0)
-    cpu=qwerty;
+    if(cpu_1>=0)
+    cpu=cpu_1;
     }
 string Notebook::getModel()
     {
@@ -52,11 +52,11 @@ void Notebook::print()
     <<"CPU: "<<cpu<<endl;
     }
 
-Notebook::Notebook (const Notebook &qweqwe)
+Notebook::Notebook (const Notebook &notebook)
 {
-    this -> setModel(qweqwe.model);
-    this -> setMemory(qweqwe.memory);
-    this -> setCPU(qweqwe.cpu);
+    this -> setModel(notebook.model);
+    this -> setMemory(notebook.memory);
+    this -> setCPU(notebook.cpu);
 }
 
  Notebook :: ~Notebook()
