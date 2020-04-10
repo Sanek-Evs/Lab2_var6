@@ -17,9 +17,9 @@ public:
     Notebook(string model, int memory, int cpu);
     Notebook (const Notebook &notebook);
 
-    void setModel(string stroka);
-    void setMemory(int qwe);
-    void setCPU(int qwe);
+    void setModel(string model_1);
+    void setMemory(int memory_1);
+    void setCPU(int cpu_1);
     string getModel();
     int getMemory();
     int getCPU();
