@@ -1,0 +1,79 @@
+# depslib dependency file v1.0
+1583354416 source:c:\users\knyaz\desktop\c++\1234\main.cpp
+	<iostream>
+	<string>
+	"Notebook.h"
+
+1583222233 c:\users\knyaz\desktop\c++\1234\notebook.h
+	<iostream>
+	<string>
+
+1583426657 source:c:\users\knyaz\desktop\c++\1234\notebook.cpp
+	"Notebook.h"
+
+1583431078 source:c:\users\varptelion\desktop\1234\main.cpp
+	<iostream>
+	<string>
+	"Notebook.h"
+
+1583430628 c:\users\varptelion\desktop\1234\notebook.h
+	<iostream>
+	<string>
+
+1583430833 source:c:\users\varptelion\desktop\1234\notebook.cpp
+	<cstring>
+	"Notebook.h"
+
+1583476687 source:c:\users\knyaz\desktop\1234\main.cpp
+	<iostream>
+	<string>
+	"Notebook.h"
+
+1583477615 c:\users\knyaz\desktop\1234\notebook.h
+	<iostream>
+	<string>
+
+1583477856 source:c:\users\knyaz\desktop\1234\notebook.cpp
+	<cstring>
+	"Notebook.h"
+
+1585303610 source:c:\users\knyaz\desktop\lab1_6\main.cpp
+	<iostream>
+	<string>
+	"Notebook.h"
+
+1585302512 c:\users\knyaz\desktop\lab1_6\notebook.h
+	<iostream>
+	<string>
+
+1585304928 source:c:\users\knyaz\desktop\lab1_6\notebook.cpp
+	<cstring>
+	"Notebook.h"
+
+1586513899 source:c:\users\knyaz\desktop\lab2_6\main.cpp
+	<iostream>
+	<string>
+	<cstring>
+	"Notebook.h"
+
+1586515722 c:\users\knyaz\desktop\lab2_6\notebook.h
+	<iostream>
+	<string>
+
+1586515722 source:c:\users\knyaz\desktop\lab2_6\notebook.cpp
+	<cstring>
+	"Notebook.h"
+
+1586531863 source:c:\users\Сергей\desktop\lab2_6\main.cpp
+	<iostream>
+	<cstring>
+	"Notebook.h"
+
+1586531161 c:\users\Сергей\desktop\lab2_6\notebook.h
+	<iostream>
+	<string>
+
+1586531642 source:c:\users\Сергей\desktop\lab2_6\notebook.cpp
+	<cstring>
+	"Notebook.h"
+
