@@ -10,16 +10,16 @@ int main()
     int memory;
     int cpu;
 
-    cout << "ââåäèòå õàğàêòåğèñòèêè 1 íîóòáóêà\n";
+    cout << "Ğ²Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ñ…Ğ°Ñ€Ğ°ĞºÑ‚ĞµÑ€Ğ¸ÑÑ‚Ğ¸ĞºĞ¸ 1 Ğ½Ğ¾ÑƒÑ‚Ğ±ÑƒĞºĞ°\n";
     Notebook number1;
     cin >> number1;
-    cout << "Notebook ¹1:";
+    cout << "Notebook â„–1:";
     cout << number1;
 
-    cout << "ââåäèòå õàğàêòåğèñòèêè 2 íîóòáóêà\n";
+    cout << "Ğ²Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ñ…Ğ°Ñ€Ğ°ĞºÑ‚ĞµÑ€Ğ¸ÑÑ‚Ğ¸ĞºĞ¸ 2 Ğ½Ğ¾ÑƒÑ‚Ğ±ÑƒĞºĞ°\n";
     Notebook number2;
     cin >> number2;
-    cout << "Notebook ¹2:";
+    cout << "Notebook â„–2:";
     cout << number2;
 int k;
     for (;1;)
@@ -34,8 +34,8 @@ int k;
     cout<<"7 - >=\n";
     cout<<"8 - ++\n";
     cout<<"9 - --\n";
-    cout<<"true - ïåğåãğóæåííûé îïåğàòîğ ñğàáîòàë, âûñòàâèë çíà÷åíèå ÈÑÒÈÍÀ\n";
-    cout<<"false - ïåğåãğóæåííûé îïåğàòîğ ñğàáîòàë, âûñòàâèë çíà÷åíèå ËÎÆÜ\n";
+    cout<<"true - Ğ¿ĞµÑ€ĞµĞ³Ñ€ÑƒĞ¶ĞµĞ½Ğ½Ñ‹Ğ¹ Ğ¾Ğ¿ĞµÑ€Ğ°Ñ‚Ğ¾Ñ€ ÑÑ€Ğ°Ğ±Ğ¾Ñ‚Ğ°Ğ», Ğ²Ñ‹ÑÑ‚Ğ°Ğ²Ğ¸Ğ» Ğ·Ğ½Ğ°Ñ‡ĞµĞ½Ğ¸Ğµ Ğ˜Ğ¡Ğ¢Ğ˜ĞĞ\n";
+    cout<<"false - Ğ¿ĞµÑ€ĞµĞ³Ñ€ÑƒĞ¶ĞµĞ½Ğ½Ñ‹Ğ¹ Ğ¾Ğ¿ĞµÑ€Ğ°Ñ‚Ğ¾Ñ€ ÑÑ€Ğ°Ğ±Ğ¾Ñ‚Ğ°Ğ», Ğ²Ñ‹ÑÑ‚Ğ°Ğ²Ğ¸Ğ» Ğ·Ğ½Ğ°Ñ‡ĞµĞ½Ğ¸Ğµ Ğ›ĞĞ–Ğ¬\n";
     cin >> k;
 
    switch(k)
@@ -44,7 +44,7 @@ case(1):
     {
     number1=number2;
     cout << number1 << endl;
-    cout << "îïåğàòîğ ïğèñâàèâàíèÿ ¹1=¹2\n" << endl;
+    cout << "Ğ¾Ğ¿ĞµÑ€Ğ°Ñ‚Ğ¾Ñ€ Ğ¿Ñ€Ğ¸ÑĞ²Ğ°Ğ¸Ğ²Ğ°Ğ½Ğ¸Ñ â„–1=â„–2\n" << endl;
     break;
     }
 case(2):
@@ -65,85 +65,85 @@ case(3):
 }
 case(4):
  {
-      cout << "Notebook ¹1 = " << number1;
-      cout << "Notebook ¹2 = " << number2;
+      cout << "Notebook â„–1 = " << number1;
+      cout << "Notebook â„–2 = " << number2;
       if(number1<number2)
       {
-      cout << "¹1<¹2 - true" << endl;
+      cout << "â„–1<â„–2 - true" << endl;
       }
       else cout << "false" << endl;
       break;
 }
 case(5):
     {
-    cout << "Notebook ¹1 = " << number1;
-    cout << "Notebook ¹2 = " << number2;
+    cout << "Notebook â„–1 = " << number1;
+    cout << "Notebook â„–2 = " << number2;
     if(number1>number2)
     {
-      cout << "¹1>¹2 - true" << endl;
+      cout << "â„–1>â„–2 - true" << endl;
       }
       else cout << "false" << endl;
     break;
     }
 case(6):
 {
-    cout << "Notebook ¹1 = " << number1;
-    cout << "Notebook ¹2 = " << number2;
+    cout << "Notebook â„–1 = " << number1;
+    cout << "Notebook â„–2 = " << number2;
      if(number1<=number2)
         {
-      cout << "¹1<=¹2 - true" << endl;
+      cout << "â„–1<=â„–2 - true" << endl;
       }
       else cout << "false" << endl;
       break;
 }
 case(7):
 {
-    cout << "Notebook ¹1 = " << number1;
-    cout << "Notebook ¹2 = " << number2;
+    cout << "Notebook â„–1 = " << number1;
+    cout << "Notebook â„–2 = " << number2;
       if(number1>=number2)
         {
-      cout << "¹1=>¹2 - true" << endl;
+      cout << "â„–1=>â„–2 - true" << endl;
       }
       else cout << "false" << endl;
     break;
 }
 case(8):
     {
-    cout << "Ââåäèòå íîìåğ íîóòáóêà (1 èëè 2)\n";
+    cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ğ½Ğ¾Ğ¼ĞµÑ€ Ğ½Ğ¾ÑƒÑ‚Ğ±ÑƒĞºĞ° (1 Ğ¸Ğ»Ğ¸ 2)\n";
     int p;
     cin >> p;
     if (p==1)
     {
-        cout << "Notebook ¹1 before = " << number1;
+        cout << "Notebook â„–1 before = " << number1;
         number1++;
-        cout << "Notebook ¹1 after = " << number1;
+        cout << "Notebook â„–1 after = " << number1;
     }
 
     if (p==2)
     {
-        cout << "Notebook¹2 before = " << number2;
+        cout << "Notebookâ„–2 before = " << number2;
         number2++;
-        cout << "Notebook¹2 after = " << number2;
+        cout << "Notebookâ„–2 after = " << number2;
     }
     break;
     }
     case(9):
     {
-    cout << "Ââåäèòå íîìåğ íîóòáóêà (1 èëè 2)\n";
+    cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ğ½Ğ¾Ğ¼ĞµÑ€ Ğ½Ğ¾ÑƒÑ‚Ğ±ÑƒĞºĞ° (1 Ğ¸Ğ»Ğ¸ 2)\n";
     int m;
     cin >> m;
     if (m==1)
     {
-        cout << "Notebook ¹1 before = " << number1;
+        cout << "Notebook â„–1 before = " << number1;
         number1--;
-        cout << "Notebook ¹1 after = " << number1;
+        cout << "Notebook â„–1 after = " << number1;
     }
 
     if (m==2)
     {
-        cout << "Notebook ¹2 before = " << number2;
+        cout << "Notebook â„–2 before = " << number2;
         number2--;
-        cout << "Notebook ¹2 after = " << number2;
+        cout << "Notebook â„–2 after = " << number2;
     }
     }
         }
