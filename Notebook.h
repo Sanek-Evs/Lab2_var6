@@ -20,10 +20,10 @@ public:
     void setModel(string model_1);
     void setMemory(int memory_1);
     void setCPU(int cpu_1);
-    string getModel();
-    int getMemory();
-    int getCPU();
-    void print();
+    string getModel() const;
+    int getMemory() const;
+    int getCPU()const;
+    void print()const;
      ~Notebook();
     Notebook& operator ++ (int);
     Notebook& operator -- (int);
@@ -33,8 +33,8 @@ public:
     bool operator <(const Notebook& value)const;
     bool operator >=(const Notebook& value)const;
     bool operator <=(const Notebook& value)const;
-    friend ostream& operator << (ostream &a, const Notebook &notebook123);
-    friend istream& operator >> (istream &b, Notebook &notebook123);
+    friend ostream& operator << (ostream &a, const Notebook &notebook_1);
+    friend istream& operator >> (istream &b, Notebook &notebook_1);
     Notebook& operator = (const Notebook &value);
 };
 
