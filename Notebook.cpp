@@ -65,29 +65,29 @@ Notebook::Notebook (const Notebook &qweqwe)
     }
 
 
-bool operator ==(Notebook &value1,  Notebook &value2)
+bool Notebook :: operator ==(const Notebook& value)const
 {
-    if ((value1.model==value2.model) && (value1.memory==value2.memory) && (value1.cpu==value2.cpu))
+    if ((this->model==value.model) && (this->memory==value.memory) && (this->cpu==value.cpu))
     return 1;
 }
 
-bool operator !=(Notebook &value1, Notebook &value2)
+bool Notebook :: operator !=(const Notebook& value)const
 {
-    if ((value1.model==value2.model) && (value1.memory == value2.memory) && (value1.cpu == value2.cpu))
+    if ((this->model==value.model) && (this->memory == value.memory) && (this->cpu == value.cpu))
     return 1;
        }
 
-bool operator > ( Notebook& value1, Notebook& value2){
-return ((value1.memory > value2.memory) && (value1.cpu > value2.cpu));
+bool Notebook :: operator > (const Notebook& value)const{
+return ((this->memory > value.memory) && (this->cpu > value.cpu));
 }
-bool operator < ( Notebook& value1, Notebook& value2){
-return ((value1.memory < value2.memory) && (value1.cpu < value2.cpu));
+bool Notebook :: operator < (const Notebook& value)const{
+return ((this->memory < value.memory) && (this->cpu < value.cpu));
        }
-bool operator >=( Notebook& value1, Notebook& value2){
-return ((value1.memory >= value2.memory) && (value1.cpu >= value2.cpu));
+bool Notebook :: operator >=(const Notebook& value)const{
+return ((this->memory >= value.memory) && (this->cpu >= value.cpu));
        }
-bool operator <=(Notebook& value1, Notebook& value2){
-return ((value1.memory <= value2.memory) && (value1.cpu <= value2.cpu));
+bool Notebook :: operator <=(const Notebook& value)const{
+return ((this->memory <= value.memory) && (this->cpu <= value.cpu));
        }
 
         Notebook& Notebook :: operator ++(int)
@@ -112,11 +112,11 @@ return ((value1.memory <= value2.memory) && (value1.cpu <= value2.cpu));
         return *this;
     }
 
-Notebook& Notebook::operator = (const Notebook &notebook_1)
+Notebook& Notebook::operator = (const Notebook &value)
 {
-    this -> model=notebook_1.model;
-    this -> memory=notebook_1.memory;
-    this -> cpu = notebook_1.cpu;
+    this -> model = value.model;
+    this -> memory = value.memory;
+    this -> cpu = value.cpu;
     return *this;
 }
 
